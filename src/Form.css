@@ -1,0 +1,12 @@
+.control {
+  display: block;
+}
+
+.control:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+
+.control__input {
+  display: inline-block;
+  margin-left: 24px;
+}
